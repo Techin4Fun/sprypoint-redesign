@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.15/build/spline-viewer.js"></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="max-w-[1440px] mx-auto py-7">
+      <div class="
+        flex justify-between items-center px-5 
+        xl:px-0
+      ">
+          <div>
+              <img 
+                  src="https://www.sprypoint.com/assets/images/sprypoint-logo-med-transparent-426459f7c1db945461dbcf7856d144bb9bd527175a20765b0f2010a507bf4b12.gif?_cchid=a2ea22673c97a1ac82caf87ba9344c08" 
+                  alt=""
+                  class="
+                    w-[100px]
+                    md:w-[120px]
+                    lg:w-[170px]
+                  "
+              >
+          </div>
+          <ul class="
+              hidden text-[#444547]
+              md:font-semibold
+              lg:flex lg:gap-2 lg:text-lg
+              xl:gap-8 xl:text-xl
+            "
+          
+          >
+              <li><a href="#">About <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+              <li><a href="#">Solutions <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+              <li><a href="#">Services <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+              <li><a href="#">Technologies <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+              <li><a href="#">Careers <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+              <li><a href="#">Resources <img src="https://www.svgrepo.com/show/520696/down-arrow-5.svg" alt="" class="w-5 inline"></a></li>
+          </ul>
+
+          <!-- CTA Button -->
+          <div class="
+            hidden
+            lg:block
+          ">
+              <a href="#" class="
+               text-white bg-[#444547] rounded-lg px-2 py-1 drop-shadow-[0_4px_black]
+                md:text-base md:px-5 md:py-1.5 md:font-extrabold
+                lg:text-xl
+              ">Contact Us</a>
+          </div> 
+
+           <!--Mobile Drop Down Menu  -->
+          <div class="lg:hidden">
+            <a href="#"><img src="https://www.svgrepo.com/show/474062/menu-hamburger.svg" alt="" class="w-10"></a>
+          </div>          
+      </div>
+    </nav>
+
+
+
+    <!-- HERO SECTION -->
+     <section class="relative">
+      <spline-viewer 
+        url="https://prod.spline.design/PYhpbT1SzWABbcFZ/scene.splinecode"
+        class="absolute z-[-1] mt-[-100px] opacity-25"
+      ></spline-viewer>
+      <div class="
+        max-w-[1440px] mx-auto pt-20 pb-72
+        sm:py-32
+      ">
+        <h1 class="
+          text-4xl
+          md:text-8xl font-extrabold text-center
+        ">Sm<span class="text-red-500">art</span> Solutions For <br> Smart Utilities</h1>
+        <div class="flex justify-center">
+            <p class="
+              text-xl max-w-[300px] font-semibold text-center py-8 
+              md:text-2xl md:max-w-[760px]
+            ">We deliver innovative software solutions designed to enhance 
+                operational efficiency and customer service for utility companies.
+            </p>            
+        </div>
+        
+        <!-- Input Container -->
+        <div class="flex justify-center">
+            <div class="
+              flex items-center flex-col
+              sm:flex-row
+            ">
+                <input type="text" placeholder="Enter your email here" 
+                  class="
+                    outline outline-4 outline-black py-4 px-2 w-80 mb-5
+                    md:rounded-l-lg md:mb-0
+
+                ">
+                <input type="submit" value="Request Demo" 
+                  class="
+                    text-2xl font-extrabold text-white bg-black py-4 px-3 rounded-lg
+                    md:text-2xl md:rounded-r-lg
+                  ">
+            </div>           
+        </div>
+        <div class="
+          hidden
+          md:flex md:justify-center md:py-16
+        ">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2.5" y="2.5" width="95" height="95" rx="47.5" stroke="black" stroke-width="5"/>
+                <path d="M33.1759 54L33 54.2488L50.5 79L68 54.2488L67.8241 54H33.1759Z" fill="black"/>
+                <path d="M45 20H55V54H45V20Z" fill="black"/>
+            </svg>
+        </div>
+      </div>
+     </section>
+
+
+
+
+    <!-- SOLUTIONS SECTION -->
+    <section class="max-w-[1440px] mx-auto">
+        <h1 class="
+          text-4xl font-extrabold text-center pb-[60px]
+          md:pb-[112px]
+        ">Our Sm<span class="text-red-500">art</span> Solutions</h1>
+
+        <!-- Solution Cards -->
+        <div class="
+          flex flex-col gap-y-10 justify-center items-center
+          md:gap-5 md:flex-row md:flex-wrap
+          lg:justify-around
+        ">
+            <!-- #1. SpryCIS -->
+            <div class="
+              h-fit bg-[#D9D9D9] w-[20rem] rounded-xl p-[30px] flex flex-col justify-between
+              md:w-[14rem] md:h-[37rem]
+            ">
+                <!-- Text Content -->
+                <div>
+                <div class="text-center">
+                    <span class="bg-red-500 rounded-full px-3 py-1 text-white font-extrabold text-xl">1</span>
+                </div>
+                <h1 class="text-center font-extrabold text-3xl py-5">Spry<span class="text-red-500">CIS</span></h1>
+                <p class="font-light pb-5 md:pb-0">SpryCIS was built to address the challenges faced by today's evolving utility by providing enterprise-grade cloud-based utility billing and  customer relationship mananagement.</p>
+                </div>
+                <!-- CTA Button -->
+                <div class="text-center">
+                <a href="#" class="pointer bg-red-500 rounded-xl px-5 py-2 text-white font-extrabold drop-shadow-[0_4px_black]">Learn More</a>
+                </div>
+            </div> 
+
+            <!-- #2. SpryEngage -->
+            <div class="
+              h-fit bg-[#D9D9D9] w-[20rem] rounded-xl p-[30px] flex flex-col justify-between
+              md:w-[14rem] md:h-[37rem]
+            ">                
+                <!-- Text Content -->
+                <div>
+                <div class="text-center">
+                    <span class="bg-red-500 rounded-full px-3 py-1 text-white font-extrabold text-xl">2</span>
+                </div>
+                <h1 class="text-center font-extrabold text-3xl py-5">Spry<span class="text-red-500">Engage</span></h1>
+                <p class="font-light pb-5 md:pb-0">At SpryPoint, we believe it is imperative to offer customers a “one stop  shop”  where all digital channels that serve as customer touchpoints  are consistent.  SpryEngage provides utilities a seamless omnichannel  user experience to simplify and enrich the lives of your customers.</p>
+                </div>
+                <!-- CTA Button -->
+                <div class="text-center">
+                <a href="#" class="pointer bg-red-500 rounded-xl px-5 py-2 text-white font-extrabold drop-shadow-[0_4px_black]">Learn More</a>
+                </div>
+            </div> 
+
+            <!-- #3. SpryMobile -->
+            <div class="
+              h-fit bg-[#D9D9D9] w-[20rem] rounded-xl p-[30px] flex flex-col justify-between
+              md:w-[14rem] md:h-[37rem]
+            "> 
+                <!-- Text Content -->
+                <div>
+                <div class="text-center">
+                    <span class="bg-red-500 rounded-full px-3 py-1 text-white font-extrabold text-xl">3</span>
+                </div>
+                <h1 class="text-center font-extrabold text-3xl py-5">Spry<span class="text-red-500">Mobile</span></h1>
+                <p class="font-light pb-5 md:pb-0">When an order is created or changed in the back office, SpryMobile allows your field operators to receive updates in less than 60 seconds. When a service order is upgraded or completed in the field, the back office is also notified in near real time.</p>
+                </div>
+                <!-- CTA Button -->
+                <div class="text-center">
+                <a href="#" class="pointer bg-red-500 rounded-xl px-5 py-2 text-white font-extrabold drop-shadow-[0_4px_black]">Learn More</a>
+                </div>
+            </div>
+
+            <!-- #4. SpryGIDR -->
+            <div class="
+              h-fit bg-[#D9D9D9] w-[20rem] rounded-xl p-[30px] flex flex-col justify-between
+              md:w-[14rem] md:h-[37rem]
+            "> 
+                <!-- Text Content -->
+                <div>
+                <div class="text-center">
+                    <span class="bg-red-500 rounded-full px-3 py-1 text-white font-extrabold text-xl">4</span>
+                </div>
+                <h1 class="text-center font-extrabold text-3xl py-5">Spry<span class="text-red-500">GIDR</span></h1>
+                <p class="font-light pb-5 md:pb-0">SpryGIDR provides two way  connectivity to high-draw household assets enabling utilities to connect, monitor,  analyze and control a fleet of grid interactive storage devices whether they be Electric Thermal Storage (ETS) Water Heaters, Air Conditioners or Electric Vehicles.</p>
+                </div>
+                <!-- CTA Button -->
+                <div class="text-center">
+                <a href="#" class="pointer bg-red-500 rounded-xl px-5 py-2 text-white font-extrabold drop-shadow-[0_4px_black]">Learn More</a>
+                </div>
+            </div>            
+
+            <!-- #5. SpryAlert -->
+            <div class="
+              h-fit bg-[#D9D9D9] w-[20rem] rounded-xl p-[30px] flex flex-col justify-between
+              md:w-[14rem] md:h-[37rem]
+            "> 
+                <!-- Text Content -->
+                <div>
+                <div class="text-center">
+                    <span class="bg-red-500 rounded-full px-3 py-1 text-white font-extrabold text-xl">5</span>
+                </div>
+                <h1 class="text-center font-extrabold text-3xl py-5">Spry<span class="text-red-500">Alert</span></h1>
+                <p class="font-light pb-5 md:pb-0">Whether it be notifications for outages, collection, infrastructure  repair,  high usage or customer service surveys – the SpryPoint Alerts  & Notification platform integrates with your back-office systems to  allow you to quickly contact your customers on demand.</p>
+                </div>
+                <!-- CTA Button -->
+                <div class="text-center">
+                <a href="#" class="pointer bg-red-500 rounded-xl px-5 py-2 text-white font-extrabold drop-shadow-[0_4px_black]">Learn More</a>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+
+
+
+    <!-- UTILITIES SECTION -->
+    <section class="max-w-[1440px] mx-auto pt-32 pb-20">
+        <div class="flex flex-wrap px-5">
+          <!-- Left Side -->
+          <div class="md:w-1/2">
+          <!-- Information Section -->
+            <div class="pb-10">
+              <h1 class="
+                font-extrabold text-4xl py-5 px-1 text-center
+                md:px-0 md:text-left
+
+              ">Software as a Service for Utilities</h1>
+              <p class="
+                text-lg px-6 font-light
+                md:px-0 md:text-xl
+              ">At SpryPoint, we pride ourselves on providing cutting-edge, industry-leading solutions to our clients in the utility industry. Our platforms are meticulously designed from the ground up as cloud-based services, eliminating the need for customers to install hardware or  software on their networks. This ensures a hassle-free experience and allows our clients to focus on their core business operations of  providing excellent customer service and operational efficiency. With continuous innovation and capabilities delivered by SpryPoint, our customers can rest assured that they always have access to the latest and most advanced technology. Some of the key benefits and advantages of our solutions include:</p>
+            </div>
+      
+            <!-- Utilities Section -->
+            <div class="flex flex-wrap justify-around gap-y-8">
+      
+              <!-- Cloud Architecture -->
+              <div class="w-[250px] flex flex-col justify-center items-center bg-white shadow-lg p-5 rounded-xl">
+                <img src="https://www.svgrepo.com/show/509901/download.svg" alt="" class="w-10">
+                <h1 class="text-red-500 font-semibold">True Cloud Architecture</h1>
+                <p class="text-center text-xs">Our 100% cloud-based architecture ensures that our customers always have  access to the latest product upgrades and features, without the need  for any additional hardware or maintenance.</p>
+              </div>
+              
+              <!-- Improved Security -->
+              <div class="w-[250px] flex flex-col justify-center items-center bg-white shadow-lg p-5 rounded-xl">
+                <img src="https://www.svgrepo.com/show/532320/lock.svg" alt="" class="w-10">
+                <h1 class="text-red-500 font-semibold">Improved Security</h1>
+                <p class="text-center text-xs">Our cloud-first approach means that we prioritize data privacy, security, and resiliency in everything we do. This means that our customers can trust that their data is always secure and protected.</p>
+              </div>
+      
+              <!-- Performance -->
+              <div class="w-[250px] flex flex-col justify-center items-center bg-white shadow-lg p-5 rounded-xl">
+                <img src="https://www.svgrepo.com/show/477668/meter-7.svg" alt="" class="w-10">
+                <h1 class="text-red-500 font-semibold">Performance</h1>
+                <p class="text-center text-xs">Our scalable infrastructure is designed to grow and adapt to the performance and availability demands of our utility clients.</p>
+              </div>
+      
+              <!-- Business Intelligence Analytics -->
+              <div class="w-[250px] flex flex-col justify-center items-center bg-white shadow-lg p-5 rounded-xl">
+                <img src="https://www.svgrepo.com/show/501807/analytics.svg" alt="" class="w-10">
+                <h1 class="text-red-500 font-semibold">Business Analytics</h1>
+                <p class="text-center text-xs">Our solutions provide improved decision-making capabilities and transparency to data and analysis, enabling our customers to make better, more informed decisions.</p>
+              </div>
+            </div>
+      
+          </div>
+      
+          <!-- Right Side -->
+          <div class="
+            hidden
+            md:w-1/2 md:flex md:justify-center md:items-center
+          ">
+            <!-- 3D Model of Iphone with SpyrPoint App -->
+            <div>
+              <!-- <spline-viewer url="https://prod.spline.design/iXRC8nUh3AagfPLu/scene.splinecode" ></spline-viewer> -->
+              <spline-viewer loading-anim-type="none" url="https://prod.spline.design/iXRC8nUh3AagfPLu/scene.splinecode" class="h-[700px] w-[700px]">
+                <img 
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAATCAYAAADxlA/3AAAJ+ElEQVR4AQCBAH7/ALjEygy4xMoIuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygm4xMoVuMTKHrjEyiO4xMojuMTKHrjEyhW4xMoJuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygi4xMoLAIEAfv8AuMTKDLjEygi4xMoBuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKDbjEyhm4xMojuMTKJ7jEyie4xMojuMTKGbjEyg24xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoBuMTKCLjEygwAgQB+/wC4xMoNuMTKCbjEygO4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEyge4xMoVuMTKIrjEyiu4xMowuMTKMLjEyiu4xMoiuMTKFbjEyge4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygG4xMoIuMTKDACBAH7/ALjEyg64xMoKuMTKBLjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoDuMTKEbjEyiC4xMotuMTKN7jEyjy4xMo8uMTKN7jEyi24xMoguMTKEbjEygK4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKArjEygi4xMoLAIEAfv8AuMTKDrjEygu4xMoFuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygy4xMocuMTKK7jEyjm4xMpEuMTKSbjEykm4xMpEuMTKOrjEyiy4xMocuMTKDLjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoCuMTKCLjEygsAgQB+/wC4xMoNuMTKCrjEygW4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoGuMTKFbjEyia4xMo2uMTKRbjEylC4xMpWuMTKVrjEylG4xMpGuMTKN7jEyie4xMoWuMTKB7jEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygK4xMoHuMTKCgCBAH7/ALjEygu4xMoIuMTKA7jEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygy4xMocuMTKLrjEykC4xMpQuMTKW7jEymK4xMpiuMTKXLjEylG4xMpCuMTKMbjEyh+4xMoPuMTKArjEygC4xMoAuMTKALjEygC4xMoAuMTKArjEyge4xMoJAIEAfv8AuMTKCbjEyge4xMoCuMTKALjEygC4xMoAuMTKALjEygC4xMoDuMTKEbjEyiK4xMo1uMTKSLjEyli4xMpkuMTKa7jEymy4xMpmuMTKW7jEyku4xMo5uMTKJ7jEyha4xMoIuMTKALjEygC4xMoAuMTKALjEygC4xMoCuMTKB7jEygkAgQB+/wC4xMoIuMTKBbjEygG4xMoAuMTKALjEygC4xMoAuMTKALjEygW4xMoUuMTKJrjEyjm4xMpNuMTKXrjEymq4xMpyuMTKc7jEym24xMpiuMTKUrjEyj+4xMotuMTKG7jEygy4xMoCuMTKALjEygC4xMoAuMTKALjEygS4xMoIuMTKCgCBAH7/ALjEyge4xMoFuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKBrjEyhW4xMonuMTKO7jEyk+4xMpguMTKbrjEynW4xMp2uMTKcbjEyma4xMpWuMTKRLjEyjG4xMofuMTKELjEygW4xMoAuMTKALjEygC4xMoBuMTKBrjEygq4xMoMAIEAfv8AuMTKCLjEygW4xMoBuMTKALjEygC4xMoAuMTKALjEygC4xMoGuMTKFbjEyie4xMo7uMTKTrjEymC4xMptuMTKdbjEyna4xMpxuMTKZrjEyle4xMpFuMTKMrjEyiG4xMoSuMTKB7jEygG4xMoAuMTKALjEygS4xMoIuMTKDLjEyg4AgQB+/wC4xMoJuMTKB7jEygK4xMoAuMTKALjEygC4xMoAuMTKALjEygS4xMoSuMTKJLjEyje4xMpLuMTKXLjEymq4xMpxuMTKc7jEym64xMpkuMTKVbjEykO4xMoxuMTKILjEyhK4xMoIuMTKArjEygC4xMoCuMTKBrjEygq4xMoOuMTKEQCBAH7/ALjEygu4xMoIuMTKA7jEygC4xMoAuMTKALjEygC4xMoAuMTKALjEyg64xMoeuMTKMbjEykS4xMpVuMTKYrjEymq4xMpsuMTKZ7jEyl24xMpPuMTKPrjEyiy4xMocuMTKD7jEyga4xMoBuMTKALjEygK4xMoHuMTKDLjEyhC4xMoSAIEAfv8AuMTKDbjEygq4xMoEuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKB7jEyhe4xMopuMTKO7jEyku4xMpYuMTKX7jEymG4xMpduMTKU7jEykW4xMo1uMTKJbjEyhW4xMoJuMTKAbjEygC4xMoAuMTKALjEyga4xMoLuMTKELjEyhIAgQB+/wC4xMoOuMTKC7jEygS4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKDbjEyh64xMovuMTKP7jEyku4xMpSuMTKVLjEylC4xMpGuMTKObjEyiq4xMoauMTKDLjEygG4xMoAuMTKALjEygC4xMoAuMTKArjEygm4xMoOuMTKEACBAH7/ALjEyg64xMoKuMTKBLjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoDuMTKErjEyiK4xMoxuMTKPbjEykS4xMpFuMTKQbjEyjm4xMosuMTKHrjEyg+4xMoCuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKBLjEygq4xMoNAIEAfv8AuMTKDbjEygm4xMoCuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoHuMTKF7jEyiW4xMowuMTKN7jEyji4xMo0uMTKLLjEyiC4xMoSuMTKBLjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKBrjEygkAgQB+/wC4xMoMuMTKCLjEygG4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoOuMTKG7jEyia4xMosuMTKLrjEyiq4xMoiuMTKFrjEygi4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoCuMTKBQGBAH7/ALjEygy4xMoHuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygm4xMoWuMTKILjEyie4xMoouMTKJLjEyhy4xMoQuMTKA7jEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoAuMTKALjEygC4xMoDB+6bJRH2OQsAAAAASUVORK5CYII=" 
+                  alt="Spline preview" 
+                  style="width: 100%; height: 100%;"
+                /></spline-viewer>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    
+    <!-- TESTIMONIALS SECTION -->
+    <section class="max-w-[1440px] mx-auto pb-32">
+        <h1 class="
+          text-4xl font-extrabold mt-[5rem] mb-[7rem] text-center
+          md:my-[5rem]
+        ">Testimonials</h1>
+      
+        <!-- Testimonial Cards -->
+        <div class="
+          flex justify-center flex-wrap gap-y-32
+          md:justify-around md:px-5
+        ">
+      
+          <!-- Fredrick's Card -->
+          <div class="w-[330px] h-[420px] bg-[#D9D9D9] rounded-xl text-xs flex flex-col justify-between p-8 shadow-md">
+              <div class="flex justify-center">
+                <img src="https://www.sprypoint.com/uploads/fredchristie.png?_cchid=3bbcfcfd0e11ea0b11ce48684e9ec5e5" alt="" class="w-[125px] mt-[-95px]">
+              </div>
+              <p class="italic">"I have known the team at SpryPoint both professionally and personally for over 15 years. They are a trusted business partner of Easton Utilities and we have collaborated with them on numerous projects over the years to build Easton Utilities reputation as a leader in technology innovation. Without any hesitation I can strongly recommend SpryPoint and their platform of solutions."</p>
+      
+              <!-- Bottom part -->
+              <div class="flex items-center justify-between">
+      
+                <!-- Personal Informations -->
+                <div class="">
+                    <p class="font-bold">Frederick C. Christie</p>
+                    <p>Chief Information Officer</p>
+                    <p class="font-extralight">Easton Utilities Commission</p>
+                </div>
+      
+                <!-- Company logo -->
+                <div>
+                  <img src="https://www.sprypoint.com/uploads/eastonlogo.png?_cchid=c77a4d9e6eb1f28779501aa00f89f87e" alt=""
+                    class="w-[50px]"
+                  >
+                </div>
+              </div>
+          </div>
+      
+      
+          
+          <!-- James's Card -->
+          <div class="w-[330px] h-[420px] bg-[#D9D9D9] rounded-xl text-xs flex flex-col justify-between p-8 shadow-md">
+              <div class="flex justify-center">
+                <img src="https://www.sprypoint.com/uploads/jameskline.png?_cchid=966c54c0b2374487de69141047742b9c" alt="" class="w-[125px] mt-[-95px]">
+              </div>
+              <p class="italic">"It is my pleasure to recommend the capabilities and services of the SpryPoint team. Over the past seven years, Westfield Gas + Electric has engaged SpryPoint on a multitude of initiatives, beginning with our CIS implementation efforts in 2012. Throughout this project, as well as subsequent endeavors, they have provided exceptional knowledge, insight, and creativity. Their deep understanding of our day-to-day needs and industry standards has enabled the development of powerful tools for engaging our customers and streamlining our processes.”</p>
+      
+              <!-- Bottom part -->
+              <div class="flex items-center justify-between">
+      
+                <!-- Personal Informations -->
+                <div class="">
+                    <p class="font-bold">James Kline</p>
+                    <p>Business and Finance Manager</p>
+                    <p class="font-extralight">Westfield Gas + Electric</p>
+                </div>
+      
+                <!-- Company logo -->
+                <div>
+                  <img src="https://www.sprypoint.com/uploads/wgewcflogo.png?_cchid=b9e4ef240d4e8cf6dce544b3423c764e" alt=""
+                    class="w-[50px]"
+                  >
+                </div>
+              </div>
+          </div>
+      
+      
+      
+          <!-- Julie's Card -->
+          <div class="w-[330px] h-[420px] bg-[#D9D9D9] rounded-xl text-xs flex flex-col justify-between p-8 shadow-md">
+              <div class="flex justify-center">
+                <img src="https://www.sprypoint.com/uploads/juliequigley2.png?_cchid=5aac49c6a4a52935d0ff12e2826d8b82" alt="" class="w-[125px] mt-[-95px]">
+              </div>
+              <p class="italic">"I am taking this moment to pass on my gratitude for SpryPoint’s contributions to the success of PWSA.  I don’t tell you often enough how much of a positive impact SpryPoint has had on our utility.  We truly appreciate SpryPoint's responsiveness and the role you play in our continuous improvement."</p>
+      
+              <!-- Bottom part -->
+              <div class="flex items-center justify-between">
+      
+                <!-- Personal Informations -->
+                <div class="">
+                    <p class="font-bold">Julie Quigley</p>
+                    <p>Director of Administrationr</p>
+                    <p class="font-extralight">Pittsburgh Water & Sewer Authority</p>
+                </div>
+      
+                <!-- Company logo -->
+                <div>
+                  <img src="https://www.sprypoint.com/uploads/pgh2ologo.png?_cchid=52cabd764b1d549d9e741b8b9125dd46" alt=""
+                    class="w-[50px]"
+                  >
+                </div>
+              </div>
+          </div>
+      
+      
+      
+          <!-- Chip's Card -->
+          <div class="w-[330px] h-[420px] bg-[#D9D9D9] rounded-xl text-xs flex flex-col justify-between p-8 shadow-md">
+              <div class="flex justify-center">
+                <img src="https://www.sprypoint.com/uploads/chiproyce.png?_cchid=6d4477f3404641bc4cf2df228393347e" alt="" class="w-[125px] mt-[-95px]">
+              </div>
+              <p class="italic">"Morgantown Utility Board has been working with SpryPoint and using SpryMobile for six years and wouldn’t have it any other way. Not only are SpryPoint products timesavers but SpryPoint staff are extremely responsive to our needs, including our input into enhanced product development. In fact, when we required significant development to support a our unique needs around our Backflow Compliance  and Cross Connection program we immediately turned to SpryPoint.”"</p>
+      
+              <!-- Bottom part -->
+              <div class="flex items-center justify-between">
+      
+                <!-- Personal Informations -->
+                <div class="">
+                    <p class="font-bold">Chip Royce</p>
+                    <p>Manager - CIS</p>
+                    <p class="font-extralight">Morgantown Utility Board</p>
+                </div>
+      
+                <!-- Company logo -->
+                <div>
+                  <img src="https://www.sprypoint.com/uploads/mublogo.png?_cchid=1becb4e9d111eadb1a38ab78a49b4d1e" alt=""
+                    class="w-[50px]"
+                  >
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+
+
+      
+      <!-- FOOTER SECTION -->
+      <footer class=" bg-[#D9D9D9]">
+        <!-- Footer Container -->
+        <div class="max-w-[1440px] mx-auto py-10">
+          <!-- Footer Conents Container -->
+          <div class="
+            flex justify-center flex-col items-center gap-y-8
+            md:justify-between md:items-center md:gap-y-0
+            lg:flex-row lg:px-5
+          ">
+            <!-- Site Logo Container-->
+            <div>
+              <img src="https://www.sprypoint.com/assets/images/sprypoint-logo-med-transparent-426459f7c1db945461dbcf7856d144bb9bd527175a20765b0f2010a507bf4b12.gif?_cchid=a2ea22673c97a1ac82caf87ba9344c08" alt=""
+                class="w-[170px]"
+              >
+            </div>
+      
+            <!-- Site Links Container -->
+            <div class="
+              flex text-lg font-semibold gap-5
+              md:gap-10 md:text-base md:py-10
+              xl:text-lg
+            ">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Services</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Technologies</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+      
+            <!-- Site Contacts Container -->
+            <div class="
+              text-sm
+              md:text-base
+            ">
+              <!-- Location -->
+              <div class="flex gap-x-3">
+                <img src="https://www.svgrepo.com/show/532535/location-crosshairs.svg" alt="" class="w-[30px]">
+                <p>401-45 Queen Street, Charlottetown, PE, C1A 4A4</p>
+              </div>
+      
+              <!-- Email -->
+              <div class="flex gap-x-3">
+                <img src="https://www.svgrepo.com/show/488920/email.svg" alt="" class="w-[30px]">
+                <p>info@sprypoint.com</p>
+              </div>
+      
+              <!-- Phone Number -->
+              <div class="flex gap-x-3">
+                <img src="https://www.svgrepo.com/show/523600/phone.svg" alt="" class="w-[30px]">
+                <p>1-(855)-TRY-SPRY</p>
+              </div>
+      
+              <!-- LinkedIn -->
+              <div class="flex gap-x-3">
+                <img src="https://www.svgrepo.com/show/504546/linkedin.svg" alt="" class="w-[30px]">
+                <a href="https://ca.linkedin.com/company/sprypoint" target="_blank">https://ca.linkedin.com/company/sprypoint</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+</body>
+</html>
